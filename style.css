@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://cdn.wallpapersafari.com/76/20/CIbLvY.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff; /* Text color */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header h3 {
+  font-size: 24px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+main h2 {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+main h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+#info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#info a {
+  color: #1E90FF;
+  text-decoration: none;
+}
+
+#info a:hover {
+  text-decoration: underline;
+}
